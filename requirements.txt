@@ -2,8 +2,10 @@ streamlit
 pydub
 openai
 python-dotenv
-whisper
+git+https://github.com/openai/whisper.git
 ffmpeg-python
 transformers
 torch
 tqdm
+ffmpeg
+pydub
