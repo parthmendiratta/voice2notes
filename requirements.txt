@@ -3,9 +3,10 @@ pydub
 openai
 python-dotenv
 git+https://github.com/openai/whisper.git
-ffmpeg-python
+ffmpeg
 transformers
 torch
+torchaudio
 tqdm
 ffmpeg
 pydub
