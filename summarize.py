@@ -10,10 +10,10 @@ api_deployement=os.getenv("AZURE_OPENAI_DEPLOYMENT",st.secrets.get("AZURE_OPENAI
 api_version=os.getenv("AZURE_OPENAI_API_VERSION",st.secrets.get("AZURE_OPENAI_API_VERSION",None))
 
 llm=AzureOpenAI(
-    api_key=api_key,
-    api_version=api_version,
-    azure_endpoint=api_endpont,
-    azure_deployment=api_deployement
+    api_key=os.getenv("AZURE_OPENAI_KEY",st.secrets.get("AZURE_OPENAI_KEY",None)),
+    api_version=os.getenv("AZURE_OPENAI_API_VERSION",st.secrets.get("AZURE_OPENAI_API_VERSION",None)),
+    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT",st.secrets.get("AZURE_OPENAI_ENDPOINT",None)),
+    azure_deployment=os.getenv("AZURE_OPENAI_DEPLOYMENT",st.secrets.get("AZURE_OPENAI_DEPLOYMENT",None))
 )
 
 def summarize_text(text):
