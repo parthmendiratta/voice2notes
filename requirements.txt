@@ -1,6 +1,5 @@
 streamlit
-openai
-pydub
-python-dotenv
-PyPDF2
-tempfile
+openai==1.21.1
+pydub==0.25.1
+python-dotenv==1.0.1
+PyPDF2==3.0.1
