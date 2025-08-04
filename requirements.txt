@@ -1,0 +1,9 @@
+streamlit
+pydub
+openai
+python-dotenv
+whisper
+ffmpeg-python
+transformers
+torch
+tqdm

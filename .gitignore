@@ -1,0 +1,30 @@
+# API keys and env
+.env
+.streamlit/secrets.toml
+
+# Python junk
+__pycache__/
+*.pyc
+
+# Virtual envs
+venv/
+
+# Datasets and audio files
+*.wav
+*.mp3
+*.flac
+*.log
+LibriSpeech/
+audio-samples/
+
+# OS junk
+.DS_Store
+
+# Specific file names
+transcript.txt
+transcript2.txt
+transcript3.txt
+
+summary.txt
+summary2.txt
+summary2.txt
